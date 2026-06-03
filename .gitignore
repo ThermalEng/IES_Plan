@@ -1,0 +1,105 @@
+# ----- 本地 Claude Code 工作文件 -----
+CLAUDE.md
+.claude/
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# uv
+.uv-cache/
+
+# 测试 / 覆盖率
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.cache
+
+# 类型检查
+.mypy_cache/
+.pyre/
+.pytype/
+
+# ruff
+.ruff_cache/
+
+# ----- Node / 前端 -----
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 编辑器
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ----- 构建产物 -----
+backend/engine_c/*.so
+backend/engine_c/**/*.o
+backend/engine_c/**/*.obj
+*.a
+*.dll
+*.dylib
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+postgres-data/
+
+# 环境变量 / 密钥（绝不入仓）
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+
+# 上传 / 临时
+tmp/
+*.tmp
+*.bak
